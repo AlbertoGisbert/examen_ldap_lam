@@ -1,5 +1,5 @@
 services:
-    db:
+    gisbertdb:
         image: mariadb:10
         volumes:
             - data:/var/lib/mysql
